@@ -1,0 +1,97 @@
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	color: #353434;
+}
+
+div.main {
+    padding-top: 10px;
+	margin-left: 100px;
+	width: 800px;
+}
+
+div.list {
+    margin-left: 75px;
+    border-radius: 25px;
+}
+
+
+img {
+    border-radius: 0px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+
+img.thumb:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+input {
+    border-radius: 10px;
+	background-color: none;
+	font-family: 'Oswald';
+	font-size: 20px;
+	padding: 15px;
+	margin: 15px;
+    width: 640px;
+}
+
+textarea {
+    width: 500px;
+    height: 300px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 75px;
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #353434;
+}
+
+button.back {
+    margin: 0px;
+    background-color: #800000;
+    color: white;
+}
+
+button.back:hover {
+    border: 4px dotted white;
+}
+
+button.submit {
+    background-color: #800000;
+    color: white;
+}
+
+button.submit:hover {
+    border: 4px dotted white;
+}
+
+h1 {
+    font-family: 'Oswald';
+    color: #800000;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    font-size: large;
+    white-space: pre;
+    margin: 25px;
+    padding: 25px;
+}

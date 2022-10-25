@@ -1,6 +1,6 @@
 #!/bin/bash
 
-users=$(dscl . ls /Users | grep -v '_' | grep -v 'admin' grep | -v 'CasperHidden' grep | -v 'daemon' grep | -v 'nobody' grep | -v 'papercut' grep | -v 'root'
+users=$(dscl . ls /Users | grep -v '_' | grep -v 'admin' | grep -v 'CasperHidden' | grep -v 'daemon' | grep -v 'nobody' | grep -v 'papercut' | grep -v 'root'
 
 echo "Removing user accounts."
 

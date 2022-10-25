@@ -1,0 +1,14 @@
+body{
+    background: black;
+}
+.clock {
+    text-align: center;
+    color: #17d4fe;
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 7px;
+}

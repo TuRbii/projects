@@ -1,0 +1,46 @@
+body {
+	margin: 0px;
+	background-color: #292524;
+	color: #e7e5e4;
+	line-height: 1.4;
+	font-size: 1.2rem;
+}
+
+#content {
+	margin: auto;
+	width: 80%;
+	max-width: 80ch;
+}
+
+header {
+	background-color: #690000;
+	padding: 10px;
+	padding-left: 5%;
+}
+
+h1, h2, h3, h4 {
+	line-height: 1.2;
+}
+
+pre {
+	padding: 20px;
+	background-color: #111;
+	overflow: auto;
+	font-size: 1rem;
+}
+
+code {
+	color: #1f0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #fed;
+}
+
+p {
+	margin-bottom: 2rem;
+}
