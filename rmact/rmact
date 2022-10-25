@@ -1,0 +1,15 @@
+#!/bin/bash
+
+users=$(dscl . ls /Users | grep -v '_' | grep -v 'admin' grep | -v 'CasperHidden' grep | -v 'daemon' grep | -v 'nobody' grep | -v 'papercut' grep | -v 'root'
+
+echo "Removing user accounts."
+
+for a in ${users}; do
+/usr/bin/dscl . delete /Users/"$a" > /dev/null 2>&l
+
+/bin/rm -rf /Users/"$a"
+continue
+done
+
+echo "User accounts removed."
+exit 0
